@@ -1,0 +1,61 @@
+.title {
+    color: black;
+    font-size: 20px;
+    margin-top: 1.2rem;
+    margin-left: 20px
+}
+
+header { 
+    color: black;
+    background: #f8f9fa!important;
+}
+
+
+
+.container {
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 24px
+
+}
+
+/* Navigation bar at top right corner */
+.navbar-light .navbar-nav .nav-link {
+    color:black;
+    font-size: 20px;
+    font-weight:500;
+}
+
+/* The top left image and paragraph under Summary: Latitude vs. X */
+#figure {
+    position: relative;
+  }
+#summary {
+    width: 90%;
+    float: left;
+  }
+#vis-image {
+    margin-right: 20px;
+    float: left;
+  }
+
+
+/* Data page and dataset */
+#dataset {
+    margin-bottom: 100px;
+}
+
+
+/* Increaase visualization previews for mobile */
+@media only screen and (max-width: 700px) {
+    .vis-image-p {
+      width: 300px;
+      height: 200px;
+    }
+    
+    #summary, #figure, #vis-image {
+        float: none;
+    }
+  }
