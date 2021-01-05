@@ -1,36 +1,61 @@
 .title {
-    color: black;
+    color: white;
     font-size: 20px;
     margin-top: 1.2rem;
     margin-left: 20px
 }
 
 header { 
-    color: black;
-    background: #f8f9fa!important;
+    color: white;
+    background: rgb(13, 161, 211)!important;
 }
 
-
-
-.container {
-    margin-top: 50px;
-}
-
-h2 {
-    font-size: 24px
-
-}
 
 /* Navigation bar at top right corner */
 .navbar-light .navbar-nav .nav-link {
     color:black;
     font-size: 20px;
     font-weight:500;
+    background-color: rgb(238, 238, 238)!important;
 }
+
+/* Navigation bar background at top right corner */
+.bg-light {
+  color:black;
+  font-size: 20px;
+  font-weight:500;
+  background-color: rgb(238, 238, 238)!important;
+}
+
+
+.container {
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 24px;
+  color: rgb(13, 161, 211);
+
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 24px;
+  color: rgb(13, 161, 211);
+}
+
+.description {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 
 /* The top left image and paragraph under Summary: Latitude vs. X */
 #figure {
     position: relative;
+    margin-top: 0px;
   }
 #summary {
     width: 90%;
@@ -48,14 +73,51 @@ h2 {
 }
 
 
+
 /* Increaase visualization previews for mobile */
-@media only screen and (max-width: 700px) {
+
+@media only screen and (max-width: 991px) {
+  .navbar-light .navbar-nav .nav-link {
+    color:black;
+    font-size: 20px;
+    font-weight:500;
+    background-color: rgb(13, 161, 211)!important;
+  }
+  
+
+/* Navigation bar background at top right corner */
+  .bg-light {
+    color:black;
+    font-size: 20px;
+    font-weight:500;
+    background-color: rgb(13, 161, 211)!important;
+  }
+}
+
+@media only screen and (max-width: 800px) {
     .vis-image-p {
-      width: 300px;
-      height: 200px;
+      width: 120px;
+      height: 80px;
     }
     
     #summary, #figure, #vis-image {
         float: none;
     }
+    .navbar-light .navbar-nav .nav-link {
+      color:black;
+      font-size: 20px;
+      font-weight:500;
+      background-color: rgb(13, 161, 211)!important;
+    }
+  
+  /* Navigation bar background at top right corner */
+    .bg-light {
+      color:black;
+      font-size: 20px;
+      font-weight:500;
+      background-color: rgb(13, 161, 211)!important;
+    }
+
   }
+}
+
