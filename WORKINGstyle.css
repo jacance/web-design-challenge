@@ -87,6 +87,23 @@ h3 {
 
 /* Increaase visualization previews for mobile */
 
+@media only screen and (max-width: 991px) {
+  .navbar-light .navbar-nav .nav-link {
+    color:black;
+    font-size: 20px;
+    font-weight:500;
+    background-color: rgb(13, 161, 211)!important;
+  }
+  
+
+/* Navigation bar background at top right corner */
+  .bg-light {
+    color:black;
+    font-size: 20px;
+    font-weight:500;
+    background-color: rgb(13, 161, 211)!important;
+  }
+}
 
 @media only screen and (max-width: 600px) {
     .vis-image-p {
