@@ -14,7 +14,7 @@ Contains 7 pages total, including:
   - Briefly introduces project.
   - Links to each visualizations page. A sidebar contains preview images of each plot, and can be clicked to visit the corresponding visualization.
 
-- Visualizations page
+- 4 Visualization pages
   - Contains all four plots  latitude to max temperature, 
 
 - Comparison page
