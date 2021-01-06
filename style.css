@@ -11,6 +11,12 @@ header {
 }
 
 
+.homebutton {
+  font-size: 24px;
+  color: white;
+  padding: 16px;
+}
+
 /* Navigation bar at top right corner */
 .navbar-light .navbar-nav .nav-link {
     color:black;
@@ -44,6 +50,11 @@ h3 {
   text-align: center;
   margin-top: 24px;
   color: rgb(13, 161, 211);
+}
+
+#comp-header {
+  text-align: left;
+  margin-left: 120px;
 }
 
 .description {
@@ -94,7 +105,7 @@ h3 {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     .vis-image-p {
       width: 120px;
       height: 80px;
@@ -117,7 +128,7 @@ h3 {
       font-weight:500;
       background-color: rgb(13, 161, 211)!important;
     }
-
+    
   }
-}
+
 
