@@ -1,5 +1,7 @@
 # Web Visualization Dashboard (Latitude)
 
+![Alt text](assets/sunandclouds.png?raw=true "Title")
+
 ## Background ##
 
 Create a web-based dashboard to visualize a weather analysis of 500+ cities from around the world. 
