@@ -3,58 +3,59 @@
     <head>
         <meta charset="UTF-8">
         <title>Weather Visualizations</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 
     
-    <header>
-        <div id="comp-container">
-            <div class="row">
-                <div class="col">
-                    <h1><a href="index.html"><div class="title">Home</div></a></h1>
-                </div>
-                <div class="col-4">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <a class="navbar-brand" href="#"></a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                            <ul class="navbar-nav">
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Plots</a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
-                                        <a class="dropdown-item" href="humidity.html">Humidity</a>
-                                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                                        <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="comparisons.html">Comparison</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="data.html">Data</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
+    <body>
+
+        <header>
+            <div id="comp-container">
+                <div class="row row-custom">
+                    <div class="col">
+                        <h1><a href="index.html"><div class="title">Home</div></a></h1>
+                    </div>
+                    <div class="col-4 col-custom">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <a class="navbar-brand" href="#"></a>
+                            <div class="div-menu-toggle"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button></div>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Plots</a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                                            <a class="dropdown-item" href="humidity.html">Humidity</a>
+                                            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                                            <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="comparisons.html">Comparison</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="data.html">Data</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
+        </header>
 
-
-    <body>
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
                     <section id="summary">
                         <section id="figure">
                         <h2>Humidity</h2>
-                        <img src="visualizations/lat_v_humid.png" alt = "Humidity">
+                        <img class="full-comp" src="visualizations/lat_v_humid.png" alt = "Humidity">
                     </section>
                     <p>This plot appears to show a slight correlation between latitude and humidity. The further up north a city is located, the more likely it is to experience higher humidity. This trend appears to be most prevalent around 50 Degrees Latitude North and above. Cities in the southern hemisphere can expect to have lower humidity than cities in the northern hemisphere.</p>
                     </section>
